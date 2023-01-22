@@ -1,2 +1,13 @@
-
 /* Your CSS Code here. */
+.parent{
+	height:100px;
+	display:flex;
+    border-style:solid;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.child{
+	background:lightgray;
+	width:50px;
+}
